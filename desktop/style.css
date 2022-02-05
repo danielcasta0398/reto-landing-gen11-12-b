@@ -1,0 +1,112 @@
+:root{
+    --tipoletrabody: 'Open Sans', sans-serif; 
+    --tipoLetraencabezado: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+}
+/*
+body::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+*/
+.subGrow{
+    background-image: url(../images/illustration-grow-together.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 40%;
+    padding: 10rem 50% 10rem 3rem;
+    margin: 1rem;
+    margin-right: 3rem;
+}
+
+.subGrow>h2{
+    font-family: var(--tipoLetraencabezado);
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 1rem;
+}
+
+.subGrow>p{
+    font-family: var(--tipoletrabody);
+    font-weight: 400;
+}
+
+.subFlowing{
+    background-image: url(../images/illustration-flowing-conversation.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 40%;
+    padding: 10rem 3rem 10rem 50%;
+    margin: 1rem;
+    margin-left: 3rem;
+}
+
+.subFlowing>h2{
+    font-family: var(--tipoLetraencabezado);
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 1rem;  
+}
+
+.subFlowing>p{
+    font-family: var(--tipoletrabody);
+    font-weight: 400;
+}
+
+.subYour{
+    background-image: url(../images/illustration-your-users.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 40%;
+    padding: 10rem 50% 10rem 3rem;
+    margin: 1rem;
+    margin-right: 3rem;
+}
+
+.subYour>h2{
+    font-family: var(--tipoLetraencabezado);
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 1rem;  
+}
+
+.subYour>p{
+    font-family: var(--tipoletrabody);
+    font-weight: 400;
+}
+
+.ready{
+    padding: 5rem 0;
+}
+
+.ready>h2{
+    text-align: center;
+    font-family: var(--tipoLetraencabezado);
+    font-weight: 700;
+    font-size: 30px;  
+    padding-bottom: 1rem;
+}
+
+.ready>div{
+    width:22%;
+    border: none;
+    border-radius: 40px;
+    background: hsl(322, 100%, 66%); 
+    padding: 12px;
+    margin:auto;
+    text-align: center;
+}
+
+.container a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+}
