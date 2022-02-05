@@ -96,12 +96,13 @@ body::-webkit-scrollbar {
 }
 
 .ready>div{
-    width:22%;
+    width:23%;
     border: none;
     border-radius: 40px;
     background: hsl(322, 100%, 66%); 
     padding: 12px;
     margin:auto;
+
     text-align: center;
 }
 
