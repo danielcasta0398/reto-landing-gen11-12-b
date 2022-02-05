@@ -12,11 +12,7 @@
 body{
     background-color: #ffffff;
 }
-/*
-body::-webkit-scrollbar {
-    -webkit-appearance: none;
-}
-*/
+
 .subGrow{
     background-image: url(../images/illustration-grow-together.svg);
     background-repeat: no-repeat;
@@ -110,7 +106,11 @@ body::-webkit-scrollbar {
     color: #ffffff;
     text-decoration: none;
     font-size: 13px;
-
-
 }
 
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
