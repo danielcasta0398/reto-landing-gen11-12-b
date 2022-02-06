@@ -180,7 +180,7 @@ footer {
     border: var(--Light-Red)
 }
 
-.newsletter>#subscribe:hover {
+.newsletter>aside>#subscribe:hover {
     cursor: pointer;
 }
 
