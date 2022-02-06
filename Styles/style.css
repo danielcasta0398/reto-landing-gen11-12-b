@@ -101,6 +101,7 @@ footer {
     background-position: center;
     background-size: contain;
     width: 100%;
+    height: 75rem;
 }
 
 .newsletter>h2 {
@@ -108,6 +109,7 @@ footer {
     font-weight: var(--Body-Font-Weighted2);
     font-style: normal;
     font-size: 3rem;
+    background-color: var(--Very-Dark-Cyan);
     color: var(--Very-Pale-Blue);
     position: relative;
     top: 3rem;
@@ -191,7 +193,10 @@ footer {
     font-family: var(--Body-Font-Family);
     font-weight: var(--Body-Font-Weighted3);
     font-size: 3rem;
+    background-color: var(--Very-Dark-Cyan);
     color: var(--Very-Pale-Blue);
+    position: relative;
+    top: 1.1rem;
 }
 
 .huddle>article {
