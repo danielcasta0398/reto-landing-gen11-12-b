@@ -33,6 +33,45 @@
 }
 
 
+/*------------Bienvenida motivacional---------------*/
+
+#contWelcome {
+    text-align: center;
+    font-size: 4vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+#contWelcomeArticle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2vw;
+    padding: 0 18vw;
+    text-align: center;
+}
+
+#contButton {
+    margin-top: 5vw;
+    width: 35vw;
+    height: 7vw;
+    background-color: hsl(321, 100%, 78%);
+    border: 1px transparent solid;
+    border-radius: 4vw;
+    position: relative;
+    left: 32vw;
+}
+
+#contGetStarted {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vw;
+    color: hsl(207, 100%, 98%);
+    text-align: center;
+    padding-top: 2vw;
+}
+
+#contButton:hover {
+    cursor: pointer;
+}
+
+
 /*------------Imágenes con números y texto-----------*/
 
 .contSectionNumbers {
